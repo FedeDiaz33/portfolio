@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--METADATOS-->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jorge Diaz" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Jorge Diaz"
+    />
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, REACT" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!--CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <!--FAVICON-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="imagenes/icons8-código-fuente-64.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- TITULO-->
+    <title>Portafolio / Desarrollo web</title>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Josefin+Slab:ital,wght@0,100;1,500&family=Quicksand:wght@500&family=Raleway:ital,wght@1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Abril+Fatface&family=Anton&family=Josefin+Slab:ital,wght@0,100;1,500&family=Quicksand:wght@500&family=Raleway:ital,wght@1,100;1,200&family=Rubik+Glitch&family=Rubik+Microbe&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="imagenes/icons8-código-fuente-64.png"
+              width="50"
+              alt="Logo del portafolio"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre-mi"
+                >Sobre mi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Certificaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Seccion Hero-->
+    <section id="hero" class="hero align-items-stretch">
+      <div
+        class="
+          hero-principal
+          d-flex
+          flex-column
+          justify-content-center
+          align-items-center
+        "
+      >
+        <img
+          class="hero-imagen-desarrollador"
+          src="imagenes/20220917_192253.jpg"
+          alt="foto"
+          width="70"
+          height="70"
+        />
+        <h1>Jorge Federico Díaz</h1>
+        <h2>
+          Desarrollador web, Maquetador y Manejador de redes sociales.
+        </h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="imagenes/computers-2690565_1280.png"
+          alt="Monitor, laptop, social media manager"
+        />
+      </div>
+    </section>
+    <!--Sobre mi-->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Biografia breve</h2>
+        <p class="seccion-texto">
+         Soy de San Miguél de Tucumán, entré al mundo del desarrollo web 
+         en 2019 como autodidacta. <br>
+         Mi ruta de aprendizaje es desarrollo Front End y tengo un amplio
+         conocimiento en el campo del marketing digital para redes sociales.
+         Actualmente trabajo para una fundación, en la cual mi tarea se basa
+         en publicidad, marketing, manejo de redes sociales, mantenimiento web
+         y administrativo digital.
+        </p>
+      </div>
+    </section>
+    <!--Experiencia-->
+    <section id="experiencia" class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!--Desarrollador -->
+
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo web</p>
+            <p>
+              Uso de herramientas basicas del desarrollo Web
+              como HTML, CSS Y JAVASCRIP.
+              También poseo conocimiento en algunas herramientas
+              Backend como React y Node JS.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">Javascript</span>
+            </div>
+          </div>
+          <!--Maquetador web -->
+
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-filetype-css"></i>
+            <p class="experiencia-titulo">Maquetador</p>
+            <p>
+              Con el uso de Bootstrap y CSS puro, aprendí a 
+              manejar de forma excelente la maquetación de una
+              pagina web.
+              Puedo realizar un amplio trabajo en el campo.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-success">Bootstrap</span>
+              <span class="badge text-bg-success">Responsive Desing</span>
+            </div>
+          </div>
+
+          <!--Marketing digital -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-phone"></i>
+            <p class="experiencia-titulo">Marketing digital - Redes sociales</p>
+            <p>
+             Manejo de redes sociales, publicidad campañas en Facebook
+             e Instagram y con la ayuda de Whatsapp Bussines digitalizar totalmente
+             ya sea un negocio o varios. En eso consiste mi trabajo actual y al cual
+             nos fue muy bien.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-warning">Comunity Manager</span>
+              <span class="badge text-bg-warning">Social Media</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Proyectos-->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Trabajos realizados</h2>
+      <h3 class="seccion-descripcion"> FreeCodeCamp - Facultad teconologica (UTN) </h3>
+      <!--Galeria de proyectos-->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--Proyecto Diseño web responsive-->
+          <div class="col-12 col-md-6 col-lg-4" >
+            <div class="proyecto">
+              <img src="imagenes/tecnologia-web-responsive.jpg" alt="resposive desing">
+              <div class="overlay">
+                <p>Diseño Web Responsive</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/FedeDiaz33" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/español" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto Fundacion ur kumara-->
+            <div class="col-12 col-md-6 col-lg-4" >
+              <div class="proyecto">
+                <img src="imagenes/fundacion.png" alt="frases">
+                <div class="overlay">
+                  <p> Fundacion UR KUMARA </p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/FedeDiaz33" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://fundacionkumara-7e948.web.app/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <!--Proyecto blog San Martin-->
+              <div class="col-12 col-md-6 col-lg-4" >
+                <div class="proyecto">
+                  <img src="imagenes/ciudadela.jpg" alt="estadio">
+                  <div class="overlay">
+                    <p> Blog -1944 </p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/FedeDiaz33" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://sanmartintuc44-f7908.web.app/?fbclid=IwAR2de4pnm3AItIU67nxyhnVNrYjNhNCwQQjI3RZaaAuKylWyVJXS-67baGw" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-laptop"></i>
+                      </a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Proyecto 4-->
+                <div class="col-12 col-md-6 col-lg-4" >
+                  <div class="proyecto">
+                    <img src="imagenes/diseño.jpg" alt="diseño productos">
+                    <div class="overlay">
+                      <p>Diseño de productos</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com/FedeDiaz33" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                <!--Proyecto 5-->
+                <div class="col-12 col-md-6 col-lg-4" >
+                  <div class="proyecto">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="Map">
+                    <div class="overlay">
+                      <p> Portafolio FreeCodeCamp</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com/FedeDiaz33" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                <!--Proyecto 6-->
+                <div class="col-12 col-md-6 col-lg-4" >
+                  <div class="proyecto">
+                    <img src="imagenes/portada.png" alt="canva">
+                    <div class="overlay">
+                      <p>Trabajos con CANVA</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com/FedeDiaz33" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+    </section>
+<!--Testimonios-->
+<section id="testimonios" class="Testimonios seccion-clara">
+  <h2 class="seccion-titulo"> Mis estudios </h2>
+  <h3 class="seccion-descripcion"></h3>
+<!--Carrousel-->
+<div id="testimonios-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.franciscorubio.es/wp-content/uploads/2019/03/Todo-lo-que-debes-saber-sobre-Google-Activate.png" class="d-block w-100" alt="carousel3">
+    </div>
+    <div class="carousel-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/FreeCodeCamp_logo.png/800px-FreeCodeCamp_logo.png" class="d-block w-100" alt="carousel1">
+    </div>
+    <div class="carousel-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Fachada_de_la_UTN_-_Facultad_Regional_Tucum%C3%A1n.jpg" class="d-block w-100" alt="carousel2">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+</section>
+<!--Contacto-->
+<br>
+<section id="contacto" class="contacto seccion-oscura">
+<div class="container">
+<div class="container text-center rectangulo d-flex justify-content-evenly">
+<div class="row">
+
+<div class="col-12 col-md-4 seccion-titulo">
+<p class="texto"> ¡Hablemos! </p>
+<a href="https://wa.me/3814963423" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a> 
+</div>
+<div class="col-12 col-md-4 description">
+<p class="texto"> Contactame y fijemos un proyecto juntos </p>
+</div>
+<div class="col-12 col-md-4">
+<a href="mailto:jorgefedericodiaz@gmail.com">
+  <button type="button">
+    Contacto
+    <i class="bi bi-envelope-at-fill"></i>
+  </button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+<a class="iconos-redes-sociales"><i class="bi bi-file-code-fill"></i></a> 
+<p class="footer-texto justify-content-center align-items-center"> "Está bien celebrar el éxito pero es más importante prestar atención a las lecciones del fracaso" <br> Bill Gates </p>
+<div class="iconos-redes-sociales d-flex flex-lg-wrap align-items-center justify-content-center">
+  <a href="https://github.com/FedeDiaz33" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/jorge-federico-d%C3%ADaz-519332149/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-linkedin"></i>
+  </a>
+  <a href="mailto:jorgefedericodiaz@gmail.com" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-envelope"></i>
+  </a>
+  <a href="https://wa.me/3814963423" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+</div>
+<div class="derechos-de-autor">Creado por Jorge Federico Díaz &#169;</div>
+</footer>
+
+</section>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAxlYT1yHx8ci3voxGNdZm6kErJa6sv23M",
+    authDomain: "smblog1944.firebaseapp.com",
+    projectId: "smblog1944",
+    storageBucket: "smblog1944.appspot.com",
+    messagingSenderId: "941820413102",
+    appId: "1:941820413102:web:d4528f4b686e3c6d3e593f",
+    measurementId: "G-DDEZEXJQJ6"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
+<!-- <section id="hero" class="hero align-items-stretch">
+    <div class="
+        hero-principal
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+      ">
+      <img class="hero-imagen-desarrollador" src="logo.png" alt="foto" />
+      <h1><span class="h1"> FUNDACIÓN UR KUMARA </span></h1>
+      <h2>
+        LIDER DE LOS DICTADOS DE LOS CURSOS DE MANDATARIO/A DE AUTOMOTOR
+      </h2>
+    </div>
+   
+    <div class="hero-inferior-imagen img-fluid">
+      <img src="slide-top.png" alt="asesoria" class="asesoria"> 
+    </div>
+  </section>
+  
+ <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="Freelance.jpg" class="img-fluid" loading="lazy">
+        </div>
+        <div class="col-lg-5">
+          <h3 class="display-5 fw-bold lh-1 mb-3 text-center"> Pre-inscripciones 2023</h3>
+          <p class="texto-negro">
+            Arrancamos con las pre inscripciones para todas las provincias
+            el 20 de Enero, cualquier información será subida por nuestro
+            coordinador general, tanto en la pagina como en las respectivas
+            redes sociales de la fundación. <br>
+            En la seccion <a href="#contacto">Contacto</a> podrás comunicarte
+            con nuestro asistente virtual Jorge F. Díaz que estará asesorandote
+            de forma personalizada.
+          </p><br>
+          <h3 class="texto-negro-serio text-center"> Lunes a Viernes de 08:00 a 13:00 </h3>
+-->
